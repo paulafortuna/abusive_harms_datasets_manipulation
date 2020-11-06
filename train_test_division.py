@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import numpy as np
 
-generic_path = "/Users/paulafortuna/PycharmProjects/SemEval-2019-Task-6/"
+generic_path = "./PycharmProjects/abusive_harms_datasets_manipulation/"
 
 zeerak_folder = "zeerak/"
 zeerak_dataset = "dataset_hate_speech_racism_sexism_en_zeerak.csv"
@@ -16,8 +16,9 @@ toxicity_folder = "toxicity/"
 toxicity_dataset = "toxicity_en.csv"
 stormfront_post_folder = "stormfront_post/"
 stormfront_dataset_post = "stormfront_data_annotated_by_post_binary.csv"
-trac_train_path = "/home/dtic/SemEval-2019-Task-6/training_short/TRAC_aggressive_en/agr_en_train.csv"
-trac_test_path = "/home/dtic/SemEval-2019-Task-6/training_short/TRAC_aggressive_en/agr_en_dev.csv"
+trac_folder = "trac/"
+trac_train_path = "agr_en_train.csv"
+
 
 pt_fortuna_folder = "multilingual_datasets/pt/"
 pt_fortuna_dataset = "hate_speech_pt.csv"
